@@ -15,13 +15,18 @@
 
 .clear {
 	clear: both;
+  
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
+body, main, #container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 
 }
 
@@ -36,6 +41,11 @@ header {
 footer {
 
 }
+
+/* 
+#container *{
+     display: flex;
+} */
 
 /******************************************
 /* ADDITIONAL STYLES
